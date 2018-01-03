@@ -17,7 +17,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'spree_core', '>= 3.1.0', '< 4.0'
 
-  s.add_dependency 'spree_core', spree_version
   s.add_dependency 'spree_events_tracker', '~> 3.2'
 
   s.add_development_dependency 'capybara', '~> 2.4'

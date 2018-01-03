@@ -33,8 +33,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'simplecov', '~> 0.11.0'
   s.add_development_dependency 'sqlite3', '~> 1.3.0'
   s.add_development_dependency 'shoulda-matchers', '~> 2.6.2'
-  s.add_development_dependency 'spree_backend', spree_version
-  s.add_development_dependency 'spree_frontend', spree_version
+  s.add_development_dependency 'spree_backend', '>= 3.1.0', '< 4.0'
+  s.add_development_dependency 'spree_frontend', '>= 3.1.0', '< 4.0'
   s.add_dependency 'wicked_pdf', '~> 1.0.6'
   s.add_dependency 'wkhtmltopdf-binary', '~> 0.9.9.3'
 end
